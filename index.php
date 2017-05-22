@@ -27,7 +27,7 @@ foreach ($test_case->getInstructions() as $key => $row) {
   $mower->setPositionY($row['coordinate']['y']);
   $mower->setCurrentDirection($row['direction']);
 
-  $moves =  str_split($row['instructions'], 1);
+  $moves = str_split($row['instructions'], 1);
   foreach ($moves as $move) {
     if ($move == $mower::MOVE) {
       $mower->move();
