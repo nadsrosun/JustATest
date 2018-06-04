@@ -23,7 +23,7 @@ class Mower
 
   protected $current_direction;
 
-  public function move()
+  public function move(): void
   {
     switch ($this->current_direction) {
       case self::NORTH:
@@ -41,7 +41,7 @@ class Mower
     }
   }
 
-  public function rotate($direction)
+  public function rotate($direction): void
   {
     if ($direction == self::RIGHT) {
       $this->rotateClockwise();
@@ -50,22 +50,22 @@ class Mower
     }
   }
 
-  public function setMaxHorizontalDistance($x)
+  public function setMaxHorizontalDistance($x): void
   {
     $this->distance_x = $x;
   }
 
-  public function setMaxVerticalDistance($y)
+  public function setMaxVerticalDistance($y): void
   {
     $this->distance_y = $y;
   }
 
-  public function setPositionX($x)
+  public function setPositionX($x): void
   {
     $this->position_x = $x;
   }
 
-  public function setPositionY($y)
+  public function setPositionY($y): void
   {
     $this->position_y = $y;
   }
@@ -118,7 +118,7 @@ class Mower
     }
   }
 
-  private function rotateClockWise()
+  private function rotateClockWise(): void
   {
     switch ($this->current_direction) {
       case self::NORTH:
@@ -136,7 +136,7 @@ class Mower
     }
   }
 
-  private function rotateAntiClockwise()
+  private function rotateAntiClockwise(): void
   {
     switch ($this->current_direction) {
       case self::NORTH:

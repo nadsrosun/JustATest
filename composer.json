@@ -1,6 +1,6 @@
 {
     "name": "nadhiir/Mower",
-    "description": "Showcase project",
+    "description": "Simple PHP OOP demo project",
     "version": "1.0.0",
     "authors": [
         {
@@ -8,6 +8,9 @@
             "email": "mnrosun@gmail.com"
         }
     ],
+    "require": {
+        "php": "^7.1.1"
+    },
     "autoload": {
         "psr-4": {
             "Nadhiir\\Mower\\": "src"
