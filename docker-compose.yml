@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  app:
+    build:
+      context: ./docker/php
+      dockerfile: Dockerfile
+    container_name: mower_app
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - 8080:80
