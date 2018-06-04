@@ -1,6 +1,6 @@
 {
-    "name": "nadhiir/test",
-    "description": "test project",
+    "name": "nadhiir/Mower",
+    "description": "Showcase project",
     "version": "1.0.0",
     "authors": [
         {
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Nadhiir\\Test\\": "src"
+            "Nadhiir\\Mower\\": "src"
         }
     }
 }
