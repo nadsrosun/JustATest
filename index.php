@@ -2,9 +2,9 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Nadhiir\App\Mower\Lawn;
-use Nadhiir\App\Mower\MowerFactory;
-use Nadhiir\App\Mower\MowerHandler;
+use Nadhiir\Mower\Lawn;
+use Nadhiir\Mower\MowerFactory;
+use Nadhiir\Mower\MowerHandler;
 
 $testData = [
     1 => [
