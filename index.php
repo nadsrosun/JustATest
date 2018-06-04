@@ -2,8 +2,8 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Nadhiir\Mower\Mower\Mower;
-use Nadhiir\Mower\Test\TestFactory;
+use Nadhiir\App\Mower\Mower;
+use Nadhiir\App\Test\TestFactory;
 
 $test_case = TestFactory::create();
 

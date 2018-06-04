@@ -1,6 +1,6 @@
 <?php
 
-namespace Nadhiir\Mower\Mower;
+namespace Nadhiir\App\Mower;
 
 class Mower
 {

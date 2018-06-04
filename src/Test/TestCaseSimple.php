@@ -1,6 +1,6 @@
 <?php
 
-namespace Nadhiir\Mower\Test;
+namespace Nadhiir\App\Test;
 
 class TestCaseSimple
 {
